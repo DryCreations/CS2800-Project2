@@ -1,0 +1,80 @@
+#GonRollover {
+  background-image: url("../images/Gon_2011.png");
+  
+  width: 300px;
+  height:300px;
+  
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#GonRollover:after {
+  content: "Gon 2011 Anime";
+  background-color: black;
+  color: white;
+  padding: 1px 5px;
+}
+
+#GonRollover:hover {
+  background-image: url("../images/Gon_1999.png");
+}
+
+#GonRollover:hover:after {
+  content: "Gon 1999 Anime";
+  background-color: black;
+  color: white;
+  padding: 1px 5px;
+}
+
+
+#KilluaRollover {
+  background-image: url("../images/Killua_2011.png");
+  
+  width: 300px;
+  height:300px;
+  
+  border: 1px solid black;
+  
+  display: inline-block;
+}
+
+#KilluaRollover:after {
+  content: "Killua 2011 Anime";
+  background-color: black;
+  color: white;
+  padding: 1px 5px;
+}
+
+#KilluaRollover:hover {
+  background-image: url("../images/Killua_1999.png");
+}
+
+#KilluaRollover:hover:after {
+  content: "Killua 1999 Anime";
+  background-color: black;
+  color: white;
+  padding: 1px 5px;
+}
+
+main {
+  text-align: center;
+}
+
+main img:nth-of-type(1) {
+  transition: 3s;
+}
+main img:nth-of-type(1):hover {
+  transform: rotate(360deg) scale(1.5,1.5);
+}
+
+main img:nth-of-type(2) {
+  filter: grayscale(100%);
+}
+
+main img:nth-of-type(2):hover {
+  filter: none;
+}
+
+a[href="page2.html"] {
+  color: lightgreen;
+}

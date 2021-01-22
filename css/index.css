@@ -1,0 +1,9 @@
+main {
+  display: grid;
+  
+  padding: 10px;
+}
+
+main *:first-child {
+  grid-column: 1 / 3;
+}

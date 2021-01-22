@@ -1,0 +1,27 @@
+main img {
+  float:right;
+  
+  margin: 10px;
+  
+  border: 5px solid green;
+  border-radius: 50px;
+}
+
+main br {
+  clear: both;
+}
+
+main img:nth-of-type(2) {
+  filter: sepia(100%);
+}
+
+main img:first-of-type {
+   transition: transform 2s;
+}
+
+main img:first-of-type:hover {
+   transform: skewY(-10deg)
+}
+a[href="page3.html"] {
+  color: lightgreen;
+}

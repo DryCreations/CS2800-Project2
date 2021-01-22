@@ -1,0 +1,19 @@
+main ul:first-of-type {
+  display: none;
+}
+
+main {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+a[href="page4.html"] {
+  color: lightgreen;
+}
